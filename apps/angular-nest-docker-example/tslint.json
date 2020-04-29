@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "angularNestDockerExample",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "angular-nest-docker-example",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
