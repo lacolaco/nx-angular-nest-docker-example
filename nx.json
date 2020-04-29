@@ -27,7 +27,8 @@
       "implicitDependencies": ["angular-nest-docker-example"]
     },
     "api": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["angular-nest-docker-example"]
     },
     "api-interfaces": {
       "tags": []
