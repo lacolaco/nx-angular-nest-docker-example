@@ -24,8 +24,7 @@
     "update": "ng update @nrwl/workspace",
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
-    "help": "nx help",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "help": "nx help"
   },
   "private": true,
   "dependencies": {
@@ -41,7 +40,6 @@
     "@nestjs/core": "^6.8.3",
     "@nestjs/platform-express": "^6.8.3",
     "@nestjs/serve-static": "^2.1.0",
-    "@nrwl/angular": "9.2.3",
     "core-js": "^2.5.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.4",
@@ -54,6 +52,7 @@
     "@angular/language-service": "^9.1.0",
     "@nestjs/schematics": "^6.7.0",
     "@nestjs/testing": "^6.8.3",
+    "@nrwl/angular": "9.2.3",
     "@nrwl/cypress": "9.2.3",
     "@nrwl/jest": "9.2.3",
     "@nrwl/nest": "9.2.3",
