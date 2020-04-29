@@ -11,7 +11,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apps/angular-nest-docker-example",
+            "outputPath": "dist/apps/client",
             "index": "apps/angular-nest-docker-example/src/index.html",
             "main": "apps/angular-nest-docker-example/src/main.ts",
             "polyfills": "apps/angular-nest-docker-example/src/polyfills.ts",
@@ -139,7 +139,7 @@
         "build": {
           "builder": "@nrwl/node:build",
           "options": {
-            "outputPath": "dist/apps/api",
+            "outputPath": "dist/apps/server",
             "main": "apps/api/src/main.ts",
             "tsConfig": "apps/api/tsconfig.app.json",
             "assets": ["apps/api/src/assets"]
